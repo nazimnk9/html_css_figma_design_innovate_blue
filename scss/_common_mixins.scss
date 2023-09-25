@@ -1,0 +1,111 @@
+/* ========== common a ============ */
+@mixin nav__menu-ul-li-a($fontsize_18,$fontweight_600,$font-family_o,$black_29313D){
+    text-transform: capitalize;
+    font-size: $fontsize_18;
+    font-weight: $fontweight_600;
+    font-family: $font-family_o;
+    color: $black_29313D;
+    transition: all linear 0.3s;
+}
+
+@mixin solution__item-a($fontsize_20,$fontweight_600,$font-family_n,$black_29313D,$l_100){
+    text-transform: capitalize;
+    font-size: $fontsize_20;
+    font-weight: $fontweight_600;
+    font-family: $font-family_n;
+    color: $black_29313D;
+    line-height: $l_100;
+}
+
+@mixin nav__menu-ul-li-a-hover($b_blue_8454F5){
+    color: $b_blue_8454F5;
+}
+
+/* ========== common h1 ============ */
+
+@mixin banner__content-h1($fontsize_64,$fontweight_700,$font-family_o,$black_29313D,$l_140){
+    text-transform: capitalize;
+    font-size: $fontsize_64;
+    font-weight: $fontweight_700;
+    font-family: $font-family_o;
+    color: $black_29313D;
+    line-height: $l_140;
+}
+
+/* ========== common h3 ============ */
+
+@mixin solution__heading-h3($fontsize_56,$fontweight_700,$font-family_o,$black_29313D,$l_140){
+    text-transform: capitalize;
+    font-size: $fontsize_56;
+    font-weight: $fontweight_700;
+    font-family: $font-family_o;
+    color: $black_29313D;
+    line-height: $l_140;
+}
+
+/* ========== common h4 ============ */
+
+@mixin solution__item_head-h4($fontsize_28,$fontweight_700,$font-family_o,$black_29313D,$l_140){
+    text-transform: capitalize;
+    font-size: $fontsize_28;
+    font-weight: $fontweight_700;
+    font-family: $font-family_o;
+    color: $black_29313D;
+    line-height: $l_140;
+}
+
+/* ========== common p ============ */
+@mixin banner__content-p($fontsize_18,$fontweight_400,$font-family_n,$black_29313D,$l_200){
+    text-transform: capitalize;
+    font-size: $fontsize_18;
+    font-weight: $fontweight_400;
+    font-family: $font-family_n;
+    color: $black_29313D;
+    line-height: $l_200;
+}
+
+@mixin solution__item-p($fontsize_18,$fontweight_400,$font-family_n,$black_29313D,$l_180){
+    text-transform: capitalize;
+    font-size: $fontsize_18;
+    font-weight: $fontweight_400;
+    font-family: $font-family_n;
+    color: $black_29313D;
+    line-height: $l_180;
+}
+
+/* ========== common effect ============ */
+@mixin banner__content-p_effect(){
+    padding-left: 20px;
+    position: relative;
+}
+
+@mixin effect_after($left,$top,$yellow_FFC556){
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 6px;
+    left: $left;
+    top: $top;
+    background-color: $yellow_FFC556;
+}
+
+/* ========== common btn ============ */
+@mixin common_btn($fontsize_20,$fontweight_600,$font-family_n,$b_rgb_8454F5,$b_blue_8454F5,$l_200){
+    text-transform: capitalize;
+    padding: 20px 48px;
+    border-radius: 18px;
+    font-size: $fontsize_20;
+    font-weight: $fontweight_600;
+    font-family: $font-family_n;
+    background-color: $b_rgb_8454F5;
+    color: $b_blue_8454F5;
+    line-height: $l_200;
+    cursor: pointer;
+    border: none;
+    transition: all linear 0.3s;
+}
+
+@mixin common_btn_hover($b_blue_8454F5,$white_FFFFFF){
+    background-color: $b_blue_8454F5;
+    color: $white_FFFFFF;
+}
